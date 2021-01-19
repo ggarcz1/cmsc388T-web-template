@@ -5,19 +5,21 @@
 #the docker lecture will help you complete this file 
 #there should be a total of 9 lines
 FROM node:10-alpine
-
-RUN useradd -ms /bin/bash node
+# no need to create a new user
+# RUN useradd -ms /bin/bash node
 
 RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
 
 WORKDIR /home/node/app
 
-COPY 
+COPY package.json ./
 
 USER node
 
-RUN 
+RUN npm install
 
-COPY --chow=node:node . .
+COPY --chown=node:node . .
 
-CMD []
+EXPOSE 8080
+
+CMD ["node", "app.js"]

@@ -10,4 +10,4 @@ URL to gtihub pages site: https://ggarcz1.github.io/
 
 
 ## TerpConnect
-URL to TerpConnect site: 
+URL to TerpConnect site: https://terpconnect.umd.edu/~ggarcz1/ggarcz1.github.io/

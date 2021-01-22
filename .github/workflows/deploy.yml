@@ -15,5 +15,5 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: ${{secrets.PORT}}
           script: |
-            cd TestRepo
-            git pull git@github.com:ggarcz1/ggarcz1.github.io.git
+            cd ../pub.ggarcz1.github.io
+            git pull

@@ -1,6 +1,4 @@
-- [Index.html] (#Index.html)
-- [Github] (#Github)
-- [TerpConnect] (#TerpConnect)
+
 # cmsc388T-web-template
 
 
